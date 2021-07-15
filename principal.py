@@ -12,5 +12,6 @@ def logicaFibonacci (op):
         numDos = numSop
         if ( op <= numSop ):
             detener = False
-
-logicaFibonacci (6)
+print("Gracias por utilizar nuestro Programa")
+num = int (input("Puedes ingresar un número para mostrar la serie de fibonacci del número?\n"))
+logicaFibonacci (num)
